@@ -10,14 +10,14 @@ import { Component } from '@angular/core';
         `
   })
   export class HelloWorldTemplateComponent {
-    message = 'I am read only!';
+    message = 'I am read onlycamrryn!';
     canEdit = false;
     onEditClick() {
       this.canEdit = !this.canEdit;
       if (this.canEdit) {
         this.message = 'You can edit me!';
       } else {
-        this.message = 'I am read only!';
+        this.message = 'I am read onlycamryn!';
       }
     }
   }
